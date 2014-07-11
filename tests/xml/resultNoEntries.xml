@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Results 1</title>
+  <link>example.com</link>
+  <opensearch:totalResults>893</opensearch:totalResults>
+  <opensearch:startIndex>1</opensearch:startIndex>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:Query role="request" searchTerms="test" startPage="1"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=1&amp;format=atom" rel="self" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=1&amp;format=atom" rel="first" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=2&amp;format=atom" rel="next" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=90&amp;format=atom" rel="last" type="application/atom+xml"/>
+</feed>

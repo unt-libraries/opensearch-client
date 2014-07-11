@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Results 1</title>
+  <link>example.com</link>
+  <opensearch:totalResults>893</opensearch:totalResults>
+  <opensearch:startIndex>1</opensearch:startIndex>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:Query role="request" searchTerms="test" startPage="1"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=1&amp;format=atom" rel="self" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=1&amp;format=atom" rel="first" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=2&amp;format=atom" rel="next" type="application/atom+xml"/>
+  <link href="http://example.com/opensearch/?q=test&amp;pw=90&amp;format=atom" rel="last" type="application/atom+xml"/>
+  <entry>
+    <title>Entry 1</title>
+    <link href="http://example.com/ark:/67531/metapth24987/"/>
+    <id>ark:/67531/metapth24987</id>
+    <updated>2013-10-14T10:29:19Z</updated>
+    <published>2007-04-25T20:07:48Z</published>
+    <content type="text">Lorem ipsum Ut anim in in.</content>
+    <media:thumbnail url="http://example.com/ark:/67531/metapth24987/thumbnail/"/>
+  </entry>
+  <entry>
+    <title>Entry 2</title>
+    <link href="http://example.com/ark:/67531/metapth20303/"/>
+    <id>ark:/67531/metapth20303</id>
+    <updated>2010-10-25T10:27:30Z</updated>
+    <published>2006-11-28T01:49:23Z</published>
+    <content type="text">Lorem ipsum Nisi tempor Ut labore nulla nisi magna elit dolore est tempor nulla magna consectetur adipisicing nostrud nulla exercitation.</content>
+    <media:thumbnail url="http://example.com/ark:/67531/metapth20303/thumbnail/"/>
+  </entry>
+  <entry>
+    <title>Entry 3</title>
+    <link href="http://example.com/ark:/67531/metapth20337/"/>
+    <id>ark:/67531/metapth20337</id>
+    <updated>2011-12-19T09:43:16Z</updated>
+    <published>2006-11-27T20:41:13Z</published>
+    <content type="text">Lorem ipsum Tempor ad nostrud occaecat Duis aliquip fugiat in sit incididunt aliqua ullamco ad dolor dolor sunt Duis adipisicing do enim labore Excepteur culpa ut sed veniam aute ut ex non.</content>
+    <media:thumbnail url="http://example.com/ark:/67531/metapth20337/thumbnail/"/>
+  </entry>
+  <entry>
+    <title>Entry 4</title>
+    <link href="http://example.com/ark:/67531/metapth20434/"/>
+    <id>ark:/67531/metapth20434</id>
+    <updated>2011-08-29T11:19:17Z</updated>
+    <published>2006-11-28T00:13:28Z</published>
+    <content type="text">Lorem ipsum Do Ut id magna proident qui ullamco dolor qui dolore voluptate proident cupidatat esse non sunt cupidatat dolore sint reprehenderit Ut dolor cupidatat cupidatat nulla ea consequat pariatur dolor sunt amet magna ea mollit est fugiat dolor dolor commodo tempor nostrud esse culpa Ut aliqua fugiat labore Ut et culpa consectetur aliqua laboris officia sunt commodo deserunt ea tempor labore elit anim esse voluptate adipisicing aute quis reprehenderit magna consequat dolor in officia dolore ea nisi Duis non consequat minim elit consequat in voluptate deserunt tempor ad ut ea deserunt laborum sit in cillum do reprehenderit minim eiusmod culpa tempor fugiat et ad occaecat ea consequat do dolore ex adipisicing do Ut et deserunt labore exercitation ut aliqua dolore aute dolore eiusmod aliqua nulla sed amet sint ea quis amet in officia voluptate eu incididunt nostrud adipisicing eu Excepteur dolor veniam mollit exercitation ad cupidatat eu qui aliquip dolor tempor sit veniam veniam sunt dolor aliqua anim ea elit ut mollit laborum aliquip ullamco ut occaecat do in consectetur aute irure sint dolore in proident quis proident do in est minim in consectetur laboris dolore est fugiat Duis elit esse cupidatat aliquip et ex in aliqua pariatur sed sit fugiat dolor adipisicing ad incididunt irure sunt ad anim culpa ut consectetur in occaecat esse amet consequat amet consectetur deserunt aliqua labore est sint fugiat deserunt ad occaecat dolore sed esse sit aute non sit in sint labore laboris proident mollit adipisicing est qui occaecat elit Ut in cupidatat velit adipisicing sit ut irure cillum.</content>
+    <media:thumbnail url="http://example.com/ark:/67531/metapth20434/thumbnail/"/>
+  </entry>
+</feed>
